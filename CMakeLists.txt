@@ -2,7 +2,7 @@ cmake_minimum_required (VERSION 3.1)
 
 project(imgui)
 
-set(IMGUI_PATH ${CMAKE_SOURCE_DIR}/Visualia/vendor/imgui)
+set(IMGUI_PATH ${CMAKE_CURRENT_SOURCE_DIR})
 
 find_package(OpenGL REQUIRED)
 
